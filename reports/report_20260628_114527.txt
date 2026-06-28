@@ -1,0 +1,96 @@
+========================================
+   USER PROVISIONING REPORT             
+   Generated: Sun Jun 28 11:45:27 UTC 2026                   
+========================================
+
+--- USERS CREATED ---
+[OK] john_doe (John Doe) - Group: developers
+[OK] jane_smith (Jane Smith) - Group: devops
+[OK] alice_k (Alice Kumar) - Group: sysadmin
+
+--- GROUP INFO ---
+[developers] Members: john_doe
+[devops] Members: jane_smith
+[sysadmin] Members: alice_k
+
+--- FOLDER PERMISSIONS ---
+total 20
+drwxr-xr-x 5 root root       4096 Jun 28 10:23 .
+drwxr-xr-x 3 root root       4096 Jun 28 10:23 ..
+drwxrwx--- 2 root developers 4096 Jun 28 10:23 developers
+drwxrwx--- 2 root devops     4096 Jun 28 10:23 devops
+drwxrwx--- 2 root sysadmin   4096 Jun 28 10:23 sysadmin
+
+--- HOME DIRECTORIES ---
+total 24
+drwxr-xr-x  6 root       root       4096 Jun 28 10:18 .
+drwxr-xr-x 19 root       root       4096 Jun 28 09:58 ..
+drwx------  2 alice_k    alice_k    4096 Jun 28 10:18 alice_k
+drwx------  2 jane_smith jane_smith 4096 Jun 28 10:18 jane_smith
+drwx------  2 john_doe   john_doe   4096 Jun 28 10:18 john_doe
+drwxr-x---  4 ubuntu     ubuntu     4096 Jun 28 10:15 ubuntu
+
+--- LOG SUMMARY ---
+========================================
+User Provisioning Started: Sun Jun 28 10:18:53 UTC 2026
+========================================
+[SUCCESS] User john_doe created in group developers
+[SUCCESS] User jane_smith created in group devops
+[SUCCESS] User alice_k created in group sysadmin
+Provisioning Completed: Sun Jun 28 10:18:53 UTC 2026
+========================================
+Group Assignment Started: Sun Jun 28 10:21:53 UTC 2026
+========================================
+[GROUP ASSIGNED] john_doe -> developers
+[GROUP ASSIGNED] jane_smith -> devops
+[GROUP ASSIGNED] alice_k -> sysadmin
+Group Assignment Completed: Sun Jun 28 10:21:54 UTC 2026
+========================================
+Permissions Setup Started: Sun Jun 28 10:25:40 UTC 2026
+========================================
+[PERMISSION SET] /opt/userdata/developers -> group:developers 770
+[PERMISSION SET] /opt/userdata/devops -> group:devops 770
+[PERMISSION SET] /opt/userdata/sysadmin -> group:sysadmin 770
+[HOME SECURED] /home/john_doe -> 700
+[HOME SECURED] /home/jane_smith -> 700
+[HOME SECURED] /home/alice_k -> 700
+Permissions Setup Completed: Sun Jun 28 10:25:40 UTC 2026
+========================================
+   AUTOMATED USER PROVISIONING SYSTEM   
+   Started: Sun Jun 28 11:45:27 UTC 2026                     
+========================================
+🔄 Step 1: Creating Users...
+========================================
+User Provisioning Started: Sun Jun 28 11:45:27 UTC 2026
+========================================
+[SKIP] User john_doe already exists
+[SKIP] User jane_smith already exists
+[SKIP] User alice_k already exists
+Provisioning Completed: Sun Jun 28 11:45:27 UTC 2026
+✅ Step 1: Done!
+🔄 Step 2: Assigning Groups...
+========================================
+Group Assignment Started: Sun Jun 28 11:45:27 UTC 2026
+========================================
+[GROUP ASSIGNED] john_doe -> developers
+[GROUP ASSIGNED] jane_smith -> devops
+[GROUP ASSIGNED] alice_k -> sysadmin
+Group Assignment Completed: Sun Jun 28 11:45:27 UTC 2026
+✅ Step 2: Done!
+🔄 Step 3: Setting Permissions...
+========================================
+Permissions Setup Started: Sun Jun 28 11:45:27 UTC 2026
+========================================
+[PERMISSION SET] /opt/userdata/developers -> group:developers 770
+[PERMISSION SET] /opt/userdata/devops -> group:devops 770
+[PERMISSION SET] /opt/userdata/sysadmin -> group:sysadmin 770
+[HOME SECURED] /home/john_doe -> 700
+[HOME SECURED] /home/jane_smith -> 700
+[HOME SECURED] /home/alice_k -> 700
+Permissions Setup Completed: Sun Jun 28 11:45:27 UTC 2026
+✅ Step 3: Done!
+🔄 Step 4: Generating Report...
+
+========================================
+   Report Complete!
+========================================

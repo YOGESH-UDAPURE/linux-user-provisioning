@@ -1,0 +1,4 @@
+username,fullname,group,shell
+john_doe,John Doe,developers,/bin/bash
+jane_smith,Jane Smith,devops,/bin/bash
+alice_k,Alice Kumar,sysadmin,/bin/bash

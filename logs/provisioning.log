@@ -1,0 +1,64 @@
+========================================
+User Provisioning Started: Sun Jun 28 10:18:53 UTC 2026
+========================================
+[SUCCESS] User john_doe created in group developers
+[SUCCESS] User jane_smith created in group devops
+[SUCCESS] User alice_k created in group sysadmin
+Provisioning Completed: Sun Jun 28 10:18:53 UTC 2026
+========================================
+Group Assignment Started: Sun Jun 28 10:21:53 UTC 2026
+========================================
+[GROUP ASSIGNED] john_doe -> developers
+[GROUP ASSIGNED] jane_smith -> devops
+[GROUP ASSIGNED] alice_k -> sysadmin
+Group Assignment Completed: Sun Jun 28 10:21:54 UTC 2026
+========================================
+Permissions Setup Started: Sun Jun 28 10:25:40 UTC 2026
+========================================
+[PERMISSION SET] /opt/userdata/developers -> group:developers 770
+[PERMISSION SET] /opt/userdata/devops -> group:devops 770
+[PERMISSION SET] /opt/userdata/sysadmin -> group:sysadmin 770
+[HOME SECURED] /home/john_doe -> 700
+[HOME SECURED] /home/jane_smith -> 700
+[HOME SECURED] /home/alice_k -> 700
+Permissions Setup Completed: Sun Jun 28 10:25:40 UTC 2026
+========================================
+   AUTOMATED USER PROVISIONING SYSTEM   
+   Started: Sun Jun 28 11:45:27 UTC 2026                     
+========================================
+🔄 Step 1: Creating Users...
+========================================
+User Provisioning Started: Sun Jun 28 11:45:27 UTC 2026
+========================================
+[SKIP] User john_doe already exists
+[SKIP] User jane_smith already exists
+[SKIP] User alice_k already exists
+Provisioning Completed: Sun Jun 28 11:45:27 UTC 2026
+✅ Step 1: Done!
+🔄 Step 2: Assigning Groups...
+========================================
+Group Assignment Started: Sun Jun 28 11:45:27 UTC 2026
+========================================
+[GROUP ASSIGNED] john_doe -> developers
+[GROUP ASSIGNED] jane_smith -> devops
+[GROUP ASSIGNED] alice_k -> sysadmin
+Group Assignment Completed: Sun Jun 28 11:45:27 UTC 2026
+✅ Step 2: Done!
+🔄 Step 3: Setting Permissions...
+========================================
+Permissions Setup Started: Sun Jun 28 11:45:27 UTC 2026
+========================================
+[PERMISSION SET] /opt/userdata/developers -> group:developers 770
+[PERMISSION SET] /opt/userdata/devops -> group:devops 770
+[PERMISSION SET] /opt/userdata/sysadmin -> group:sysadmin 770
+[HOME SECURED] /home/john_doe -> 700
+[HOME SECURED] /home/jane_smith -> 700
+[HOME SECURED] /home/alice_k -> 700
+Permissions Setup Completed: Sun Jun 28 11:45:27 UTC 2026
+✅ Step 3: Done!
+🔄 Step 4: Generating Report...
+✅ Step 4: Done!
+========================================
+   ALL DONE! System Ready!              
+   Completed: Sun Jun 28 11:45:27 UTC 2026                   
+========================================
